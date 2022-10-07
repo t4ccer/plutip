@@ -10,8 +10,11 @@
       url = "github:edolstra/flake-compat";
       flake = false;
     };
-    bot-plutus-interface.url =
-      "github:mlabs-haskell/bot-plutus-interface?ref=857ec745d50f7f0ebd5cd934110403fae301ef6f";
+    bot-plutus-interface = {
+      url = "github:mlabs-haskell/bot-plutus-interface?ref=857ec745d50f7f0ebd5cd934110403fae301ef6f";
+      inputs.cardano-wallet.url = "github:t4ccer/cardano-wallet?ref=t4/agora-offchain-longer-epochs";
+    };
+
   };
 
   outputs =
