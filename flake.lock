@@ -282,9 +282,9 @@
         "type": "github"
       },
       "original": {
-        "owner": "input-output-hk",
+        "owner": "t4ccer",
+        "ref": "t4/agora-offchain-longer-epochs",
         "repo": "cardano-wallet",
-        "rev": "18a931648550246695c790578d4a55ee2f10463e",
         "type": "github"
       }
     },
